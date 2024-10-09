@@ -6,7 +6,7 @@ on:
   - cron: "0 * * * *"
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  #workflow_dispatch:
 
 # OLD_INSTANCE_SNAPSHOT_NAME=$(aws lightsail get-instance-snapshots | grep '"name": "CasaOS-Demo-Snapshot-[0-9]' | sed 's/ //g' | sed 's/"//g' | sed 's/,//g' | sed 's/name://g')
 # OLD_INSTANCE_NAME=$(aws lightsail get-instances | grep '"name": "CasaOS-Demo-[0-9]' | sed 's/ //g' | sed 's/"//g' | sed 's/,//g' | sed 's/name://g')
